@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f8fafc;
+    color: #087a27;
+}
+.container{
+    max-width: 1800px;
+    margin-inline: Auto;
+    padding-inline: 1rem;
+}
+.hero{
+    background-image: url(503A8B55-56F9-43E0-89A9-CE4A236CF3F2.PNG) ;
+     background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.shop-now{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.shop-now h1{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.shop-now p{
+    font-size: 20px;
+}
+.shop-more{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #087a27;
+    margin-top: 20px;
+    color: #fff;
+}
+.shop-more:hover{
+    background: #13a83b;
+    color: #eee;
+}
+.freshmart p{
+    font-size: 12px;
+    padding-top: 20px;
+    color: rgba(10, 1, 1, 0.637);
+
+}
+.freshmart span{
+    color: #087a27;
+}
+.why{
+    width: 100%;
+    height: 250px;
+    background: #cceeab;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    
+}
+.section-title span{
+    width: 200px;
+    height: 2px;
+    background-color: green;
+}
+.section-title h1{
+    margin: 0;
+    white-space: nowrap;
+    font-size: 30px;
+}
+.card-list{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.cards{
+    width: 250px;
+    height: 170px;
+    background: #eee;
+    text-align: center;
+    margin-top: 20px ;
+    padding-inline: 30px;
+    border-radius: 10px;
+}
+.cards i{
+    font-size: 40px;
+    padding-top: 30px;
+    color: goldenrod;
+}
+.cards h5{
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+.dont{
+    background-image: url(image_3a055d57.jpg) ;
+     background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.miss-out{
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.miss-out h1{
+    font-size: 40px;
+    font-weight: 500px;
+}
+.miss-out p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.692);
+}
+.sign-up{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #087a27;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sign-up:hover{
+    background-color: #17af40;
+    color: #eee;
+}

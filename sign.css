@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #087a27;
+    color: #fff;
+    margin: 0;
+}
+.container{
+    max-width: 1800px;
+    margin-inline: Auto;
+    padding-inline: 1rem;
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+
+    box-shadow: 0 14px 28px rgba(5, 219, 101, 0.856), 0 10px 10px rgba(0,0,0,0.22);
+    padding-top: 50px;
+    padding-left: 30px;
+    gap: 20px;
+    
+}
+.hero span{
+    color: goldenrod;
+}
+.hero h1{
+    font-size: 30px;
+    font-weight: 200px;
+}
+.hero p{
+    font-size: 10px;
+    color: #fdf8e8;
+}
+.input{
+    margin-top: 20px;
+}
+.input h2{
+    font-size: 15px;
+    color: #eee;
+}
+.input-box{
+    position: relative;
+    width: 300px;
+}
+.input-box input{
+    width: 440px;
+    padding: 12px 15px 12px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+.input-box i{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #087a27;
+}
+.Create-Account{
+    width: 440px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #eee;
+    background: #37d6615d;
+    cursor: pointer;
+
+}
+.Create-Account:hover{
+    background-color: #09a833;
+    color: #fff;
+}
+.sign p{
+    font-size: 13px;
+    text-align: center;
+    padding-right: 30px;
+    margin-top: 15px;
+
+}
+.mail{
+    width: 440px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #eee;
+    background: #37d6615d;
+    cursor: pointer;
+}
+.mail i{
+    color: goldenrod;
+}
+.mail:hover{
+    background-color: #09a833;
+    color: #fff;
+}
+.already p{
+    margin-left: 10x;
+    margin-top: 10px;
+}
+.already span{
+    color: goldenrod;
+}
+
