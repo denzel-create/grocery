@@ -12,28 +12,7 @@ body{
     color: #087a27;
 }
 
-@media screen and (max-width: 768px) {
 
-.container {
-width: 95%;
-padding: 10px;
-}
-
-nav ul {
-flex-wrap: wrap;
-gap: 15px;
-}
-
-h1 {
-font-size: 30px;
-}
-
-img {
-max-width: 100%;
-height: auto;
-}
-
-}
 
 
 .container{
@@ -179,4 +158,26 @@ cursor: pointer;
 .add-cart:hover{
     background-color: #34c95c;
     color: #eee;
+}
+@media screen and (max-width: 768px) {
+
+.container {
+width: 95%;
+padding: 10px;
+}
+
+nav ul {
+flex-wrap: wrap;
+gap: 15px;
+}
+
+h1 {
+font-size: 30px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
 }

@@ -10,30 +10,10 @@ body{
     font-family: 'poppins', sans-serif;
     background-color: #f8fafc;
     color: #087a27;
+    width: 100%;
 }
 
-@media screen and (max-width: 768px) {
 
-.container {
-width: 95%;
-padding: 10px;
-}
-
-nav ul {
-flex-wrap: wrap;
-gap: 15px;
-}
-
-h1 {
-font-size: 30px;
-}
-
-img {
-max-width: 100%;
-height: auto;
-}
-
-}
 .container{
     max-width: 1800px;
     margin-inline: Auto;
@@ -489,6 +469,28 @@ font-size: 14px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+
+.container {
+width: 95%;
+padding: 10px;
+}
+
+nav ul {
+flex-wrap: wrap;
+gap: 15px;
+}
+
+h1 {
+font-size: 30px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
 }
 
     

@@ -12,28 +12,7 @@ body{
     color: #087a27;
 }
 
-@media screen and (max-width: 768px) {
 
-.container {
-width: 95%;
-padding: 10px;
-}
-
-nav ul {
-flex-wrap: wrap;
-gap: 15px;
-}
-
-h1 {
-font-size: 30px;
-}
-
-img {
-max-width: 100%;
-height: auto;
-}
-
-}
 .container{
     max-width: 1800px;
     margin-inline: Auto;
@@ -164,4 +143,26 @@ height: auto;
 .sign-up:hover{
     background-color: #17af40;
     color: #eee;
+}
+@media screen and (max-width: 768px) {
+
+.container {
+width: 95%;
+padding: 10px;
+}
+
+nav ul {
+flex-wrap: wrap;
+gap: 15px;
+}
+
+h1 {
+font-size: 30px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
 }
