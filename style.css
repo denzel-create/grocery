@@ -7,7 +7,7 @@
     margin: 0;
 }
 body{
-    font-family: 'poppins', sans-serif;
+    font-family: 'inter', sans-serif;
     background-color: #f8fafc;
     color: #087a27;
     width: 100%;
@@ -51,10 +51,56 @@ body{
     cursor: pointer;
 
 }
+.category-dropdown {
+position: relative;
+display: inline-block;
+}
+
+.category-btn {
+background: #168b50;
+color: white;
+padding: 13px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: white;
+min-width: 220px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+border-radius: 6px;
+z-index: 1000;
+padding: 10px 0;
+}
+
+.dropdown-menu a {
+display: block;
+padding: 12px 18px;
+text-decoration: none;
+color: #333;
+transition: 0.3s;
+}
+
+.dropdown-menu a:hover {
+background: #eaf6ef;
+color: #168b50;
+}
+
+/* Show dropdown on hover */
+.category-dropdown:hover .dropdown-menu {
+display: block;}
 .btn:hover{
     background-color: #0a5c1f;
 }
-nav-link li{
+.nav-link li{
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
@@ -113,7 +159,7 @@ font-size: 14px;
 
 .icon i {
     position: absolute;
-   left: 45%;
+   left: 50%;
    top: 20%;
    transform: translate(-50%, -50%);
    color: #087a27;
@@ -470,30 +516,362 @@ font-size: 14px;
     cursor: pointer;
     font-size: 16px;
 }
+
+
+/* MOBILE RESPONSIVENESS */
 @media screen and (max-width: 768px) {
 
-.container {
-width: 95%;
-padding: 10px;
+.navbar {
+flex-wrap: wrap;
+align-items: center;
+gap: 15px;
 }
 
-nav ul {
+.nav-link {
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+margin-top: 10px;
+}
+
+.nav-link li {
+font-size: 14px;
+margin-top: 5px;
+}
+
+.log-in,
+.sign-up {
+margin-top: 5px;
+}
+
+.hero {
+height: 320px;
+margin-top: 30px;
+background-position: center;
+}
+
+.left-text {
+padding-top: 40px;
+padding-left: 20px;
+}
+
+.left-text h1 {
+font-size: 32px;
+}
+
+.left-text p {
+font-size: 16px;
+max-width: 90%;
+}
+
+.goods {
+height: auto;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+padding: 15px;
+}
+
+.items {
+width: 110px;
+margin-top: 5px;
+}
+
+.feat {
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.feat h1 {
+font-size: 24px;
+}
+
+.pricee {
+justify-content: center;
+margin-inline: 10px;
+}
+
+.items-price {
+width: 140px;
+}
+
+.why {
+height: auto;
+padding-bottom: 30px;
+margin-top: 50px;
+}
+
+.why h1 {
+font-size: 25px;
+text-align: center;
+}
+
+.ans {
 flex-wrap: wrap;
 gap: 15px;
 }
 
-h1 {
-font-size: 30px;
+.anss {
+margin-inline: 5px;
 }
 
-img {
-max-width: 100%;
+.sub {
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 10px;
+}
+
+.sub-in {
+width: 100%;
+}
+
+.Subscribe {
+margin-top: 30px;
 height: auto;
+padding: 20px 10px;
+}
+}
+
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+
+.navbar {
+flex-wrap: wrap;
+align-items: center;
+gap: 15px;
+}
+
+.nav-link {
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+margin-top: 10px;
+}
+
+.nav-link li {
+font-size: 14px;
+margin-top: 5px;
+}
+
+.log-in,
+.sign-up {
+margin-top: 5px;
+}
+
+.hero {
+height: 320px;
+margin-top: 30px;
+background-position: center;
+}
+
+.left-text {
+padding-top: 40px;
+padding-left: 20px;
+}
+
+.left-text h1 {
+font-size: 32px;
+}
+
+.left-text p {
+font-size: 16px;
+max-width: 90%;
+}
+
+.goods {
+height: auto;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+padding: 15px;
+}
+
+.items {
+width: 110px;
+margin-top: 5px;
+}
+
+.feat {
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.feat h1 {
+font-size: 24px;
+}
+
+.pricee {
+justify-content: center;
+margin-inline: 10px;
+}
+
+.items-price {
+width: 140px;
+}
+
+.why {
+height: auto;
+padding-bottom: 30px;
+margin-top: 50px;
+}
+
+.why h1 {
+font-size: 25px;
+text-align: center;
+}
+
+.ans {
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.anss {
+margin-inline: 5px;
+}
+
+.sub {
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 10px;
+}
+
+.sub-in {
+width: 100%;
+}
+
+.Subscribe {
+margin-top: 30px;
+height: auto;
+padding: 20px 10px;
+}
+}
+/* SMALL MOBILE PHONES */
+@media screen and (max-width: 480px) {
+
+.container {
+padding-inline: 10px;
+}
+
+.navbar {
+justify-content: center;
+}
+
+.nav-link {
+gap: 10px;
+}
+
+.nav-link li {
+font-size: 12px;
+}
+
+.log-in,
+.sign-up {
+width: 80px;
+font-size: 11px;
+}
+
+.category-btn {
+padding: 10px;
+font-size: 12px;
+}
+
+.dropdown-menu {
+min-width: 180px;
+}
+
+.hero {
+height: 280px;
+background-position: center;
+}
+
+.left-text {
+padding-top: 35px;
+padding-left: 15px;
+}
+
+.left-text h1 {
+font-size: 25px;
+}
+
+.left-text p {
+font-size: 13px;
+margin-top: 12px;
+}
+
+.shop-now {
+width: 120px;
+height: 35px;
+font-size: 12px;
+}
+
+.goods {
+gap: 10px;
+padding: 10px 5px;
+}
+
+.items {
+width: 90px;
+height: 90px;
+}
+
+.items p {
+font-size: 9px;
+}
+
+.feat {
+margin-inline: 10px;
+}
+
+.feat h1 {
+font-size: 20px;
+}
+
+.view-all {
+width: 100px;
+font-size: 11px;
+}
+
+.pricee {
+gap: 12px;
+margin-inline: 5px;
+}
+
+.items-price {
+width: 135px;
+height: 190px;
+}
+
+.items-price h3 {
+font-size: 13px;
+}
+
+.add-to-cart {
+width: 90px;
+font-size: 11px;
+}
+
+.why h1 {
+font-size: 21px;
+padding-inline: 10px;
+}
+
+.anss {
+width: 130px;
+height: 140px;
+margin-inline: 3px;
+}
+
+.sub-in button {
+padding: 12px 15px;
+font-size: 12px;
+}
+
+.sub-in input {
+font-size: 12px;
 }
 
 }
-
-    
-    
-
-

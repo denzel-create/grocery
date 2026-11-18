@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f8fafc;
+    color: #087a27;
+    width: 100%;
+}
+
+
+.container{
+    max-width: 1800px;
+    margin-inline: Auto;
+    padding-inline: 1rem;
+}
+/* HEADER */
+
+.header {
+background: #006b2d;
+color: white;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo img {
+height: 70px;
+}
+
+.logo h1 span {
+color: #a5e83b;
+}
+
+.logo p {
+font-size: 14px;
+font-style: italic;
+}
+
+.header-icons {
+display: flex;
+align-items: center;
+gap: 30px;
+font-size: 25px;
+cursor: pointer;
+}
+
+.cart {
+position: relative;
+}
+
+.cart span {
+position: absolute;
+top: -12px;
+right: -12px;
+background: red;
+color: white;
+font-size: 12px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* PROFILE CONTAINER */
+
+.profile-container {
+padding: 35px 30px;
+}
+
+
+/* PAGE HEADING */
+
+.profile-heading {
+display: flex;
+align-items: center;
+gap: 25px;
+margin-bottom: 30px;
+}
+
+.heading-icon {
+font-size: 75px;
+color: #00852f;
+}
+
+.profile-heading h2 {
+font-size: 45px;
+color: #064c27;
+}
+
+.profile-heading p {
+font-size: 19px;
+color: #555;
+margin-top: 8px;
+}
+
+
+/* PROFILE CARD */
+
+.profile-card {
+background: #e3fbe4;
+border-radius: 22px;
+padding: 25px 35px;
+display: flex;
+align-items: center;
+gap: 35px;
+margin-bottom: 25px;
+}
+
+
+/* PROFILE PICTURE */
+
+.profile-picture {
+width: 150px;
+height: 150px;
+position: relative;
+border-radius: 50%;
+border: 7px solid white;
+background: #b7f5b8;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.profile-picture img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.profile-picture input {
+display: none;
+}
+
+.camera-icon {
+position: absolute;
+bottom: 0;
+right: -8px;
+background: #00852f;
+color: white;
+width: 42px;
+height: 42px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+border: 3px solid white;
+}
+
+
+/* PROFILE INFO */
+
+.profile-info {
+flex: 1;
+}
+
+.profile-info h2 {
+font-size: 30px;
+margin-bottom: 12px;
+}
+
+.profile-info p {
+font-size: 20px;
+}
+
+.profile-info i {
+color: #00852f;
+margin-right: 10px;
+}
+
+
+/* EDIT BUTTON */
+
+.edit-button {
+background: transparent;
+border: 2px solid #00852f;
+color: #00852f;
+padding: 15px 25px;
+border-radius: 15px;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+/* PERSONAL INFORMATION */
+
+.personal-information {
+border: 2px solid #e1e6e9;
+border-radius: 22px;
+overflow: hidden;
+}
+
+.info-row {
+display: flex;
+align-items: center;
+gap: 25px;
+padding: 20px 30px;
+border-bottom: 1px solid #ddd;
+min-height: 75px;
+}
+
+.info-row:last-child {
+border-bottom: none;
+}
+
+.info-row > i:first-child {
+font-size: 30px;
+color: #00852f;
+width: 55px;
+text-align: center;
+}
+
+.info-row label {
+font-size: 21px;
+font-weight: bold;
+flex: 1;
+}
+
+.info-row input,
+.info-row select {
+border: none;
+outline: none;
+background: transparent;
+text-align: right;
+font-size: 18px;
+color: #222;
+width: 35%;
+}
+
+.info-row input::placeholder {
+color: #777;
+}
+
+.info-row .arrow {
+color: #555;
+font-size: 20px;
+}
+
+
+/* SAVE BUTTON */
+
+.save-button {
+width: 100%;
+background: #00852f;
+color: white;
+border: none;
+border-radius: 50px;
+padding: 22px;
+margin-top: 25px;
+font-size: 25px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.save-button i {
+margin-right: 15px;
+}
+
+
+/* BOTTOM NAVIGATION */
+
+.bottom-nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-top: 1px solid #ddd;
+padding: 18px;
+margin-top: 45px;
+}
+
+.bottom-nav a {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+text-decoration: none;
+color: #555;
+font-size: 15px;
+}
+
+.bottom-nav i {
+font-size: 27px;
+}

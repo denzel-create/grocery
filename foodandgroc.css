@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f8fafc;
+    color: #087a27;
+    width: 100%;
+}
+
+
+.container{
+    max-width: 1800px;
+    margin-inline: Auto;
+    padding-inline: 1rem;
+}
+.logo img{
+    height: 70px;
+}
+.input{
+     display: flex;
+     justify-content: space-between;
+     padding-inline: 30px;
+}
+.input-box{
+    position: relative;
+    width: 300px;
+     margin-top: 20px;
+
+    
+}
+#sort {
+    margin-top: 20px;
+padding: 12px 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background: white;
+color: #087443;
+font-size: 15px;
+cursor: pointer;
+}
+.input-box input{
+    width: 440px;
+    padding: 12px 15px 12px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+.input-box i{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #087a27;
+}
+.food{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: 300px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.image img{
+    height: 200px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.inmm img{
+    height: 190px;
+    padding-left: 20px;
+
+}
+.image h4{
+    font-size: 25px;
+}
+.image p{
+     font-size: 13px;
+     color: rgba(0, 0, 0, 0.575);
+        
+}
+.add-cart{
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #087a27;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add-cart:hover{
+    background-color: #34c95c;
+    color: #eee;
+}
