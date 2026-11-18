@@ -295,6 +295,11 @@ font-size: 14px;
     color: white;
     margin-top: 20px;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 
 }
 .view-all:hover{
