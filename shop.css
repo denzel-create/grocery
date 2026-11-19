@@ -162,22 +162,205 @@ cursor: pointer;
 @media screen and (max-width: 768px) {
 
 .container {
-width: 95%;
+width: 100%;
+padding-inline: 15px;
+}
+
+.logo img {
+height: 75px;
+}
+
+.hero {
+height: auto;
+min-height: 250px;
+padding-bottom: 20px;
+}
+
+.input {
+gap: 15px;
+padding-inline: 20px;
+}
+
+.input-box {
+width: 65%;
+}
+
+.input-box input {
+width: 100%;
+}
+
+#sort {
+max-width: 180px;
+font-size: 13px;
+}
+
+.shop {
+margin-left: 20px;
+}
+
+.shop h1 {
+font-size: 25px;
+}
+
+.button {
+flex-wrap: wrap;
+gap: 10px;
+padding-inline: 10px;
+}
+
+.btn {
+margin-top: 15px;
+}
+
+.all {
+width: 140px;
+margin-left: 5px;
+}
+
+.products {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 20px;
+margin: 30px 10px;
+}
+
+.image {
+width: 100%;
+height: auto;
+min-height: 220px;
+margin: 0;
+padding-bottom: 10px;
+}
+
+.image img {
+width: 100%;
+height: 120px;
+object-fit: contain;
 padding: 10px;
 }
 
-nav ul {
-flex-wrap: wrap;
-gap: 15px;
+.add-cart {
+width: calc(100% - 30px);
+margin: 10px 15px 0;
 }
 
-h1 {
-font-size: 30px;
+}
+@media screen and (max-width: 480px) {
+
+.container {
+width: 100%;
+padding-inline: 10px;
 }
 
-img {
-max-width: 100%;
+.logo img {
+height: 65px;
+}
+
+.hero {
 height: auto;
+padding: 15px 10px 20px;
+}
+
+.input {
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-inline: 5px;
+}
+
+.input-box {
+width: 100%;
+margin-top: 10px;
+}
+
+.input-box input {
+width: 100%;
+padding: 12px 12px 12px 40px;
+font-size: 13px;
+}
+
+#sort {
+width: 100%;
+max-width: none;
+margin-top: 5px;
+font-size: 13px;
+}
+
+.shop {
+margin: 20px 5px 0;
+}
+
+.shop h1 {
+font-size: 21px;
+}
+
+.button {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 10px;
+padding: 0 5px;
+}
+
+.btn {
+margin-top: 12px;
+width: 100%;
+}
+
+.all {
+width: 100%;
+height: 40px;
+margin: 0;
+font-size: 12px;
+padding: 5px;
+}
+
+.all img {
+width: 20px;
+height: 20px;
+padding-top: 0;
+vertical-align: middle;
+object-fit: contain;
+}
+
+.products {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 12px;
+margin: 25px 0;
+}
+
+.image {
+width: 100%;
+height: auto;
+min-height: 200px;
+margin: 0;
+padding: 8px 5px 10px;
+}
+
+.image img {
+width: 100%;
+height: 95px;
+padding: 5px;
+object-fit: contain;
+}
+
+.image h4 {
+padding-left: 5px;
+font-size: 12px;
+}
+
+.image p {
+padding-left: 5px;
+font-size: 13px;
+margin-top: 5px;
+}
+
+.add-cart {
+width: 100%;
+height: 32px;
+margin: 10px 0 0;
+font-size: 11px;
 }
 
 }
+
