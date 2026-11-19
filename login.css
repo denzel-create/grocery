@@ -66,7 +66,7 @@ body{
 }
 .wel h1{
     font-size: 30px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 .iicon i{
     font-size: 20px;
@@ -125,7 +125,7 @@ body{
     height: 40px;
     border-radius: 10px;
     border: none;
-    font-size: px;
+    font-size: 14px;
     background: #0a5c1f;
     cursor: pointer;
     color: #f8fafc;
@@ -174,22 +174,121 @@ body{
 @media screen and (max-width: 768px) {
 
 .container {
-width: 95%;
-padding: 10px;
+width: 100%;
+padding-inline: 15px;
 }
 
-nav ul {
-flex-wrap: wrap;
-gap: 15px;
+.logo {
+padding-inline: 15px;
+margin-top: 20px;
 }
 
-h1 {
-font-size: 30px;
+.logo img {
+height: 75px;
+width: auto;
 }
 
-img {
+.hero {
+margin-top: 40px;
+padding-inline: 10px;
+}
+
+.wel {
+width: 350px;
 max-width: 100%;
+}
+
+.copy {
+margin-top: 30px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+.container {
+padding-inline: 10px;
+}
+
+.logo {
+padding-inline: 5px;
+margin-top: 15px;
+}
+
+.logo img {
+height: 65px;
+}
+
+.logo > .sign-up {
+width: auto;
 height: auto;
+background: transparent;
+}
+
+.logo > .sign-up > button {
+width: 85px;
+height: 40px;
+font-size: 13px;
+}
+
+.hero {
+margin-top: 30px;
+padding-inline: 5px;
+}
+
+.wel {
+width: 100%;
+max-width: 350px;
+height: auto;
+min-height: 500px;
+padding: 25px 15px;
+}
+
+.wel h1 {
+font-size: 25px;
+}
+
+.inp {
+width: 100%;
+margin: 15px 0;
+}
+
+.inp input {
+width: 100%;
+font-size: 14px;
+}
+
+.rem {
+padding-inline: 0;
+gap: 5px;
+}
+
+.rem span,
+.rem p {
+font-size: 11px;
+}
+
+.log-in {
+width: 100%;
+height: 42px;
+}
+
+.con {
+width: 100%;
+height: 42px;
+font-size: 13px;
+}
+
+.copy {
+width: 100%;
+height: 50px;
+margin-top: 25px;
+}
+
+.copy p {
+font-size: 11px;
+margin-top: 0;
+padding-top: 17px;
 }
 
 }
