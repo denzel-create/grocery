@@ -147,22 +147,192 @@ body{
 @media screen and (max-width: 768px) {
 
 .container {
-width: 95%;
-padding: 10px;
+width: 100%;
+padding-inline: 15px;
 }
 
-nav ul {
-flex-wrap: wrap;
-gap: 15px;
+.logo img {
+height: 75px;
 }
 
-h1 {
-font-size: 30px;
+.hero {
+height: 280px;
+background-position: center;
+margin-top: 30px;
 }
 
-img {
-max-width: 100%;
+.shop-now {
+padding-top: 25px;
+padding-left: 25px;
+}
+
+.shop-now h1 {
+font-size: 32px;
+}
+
+.shop-now p {
+font-size: 18px;
+}
+
+.why {
 height: auto;
+padding: 20px 10px;
+margin-top: 35px;
 }
 
+.section-title {
+gap: 15px;
+margin-top: 10px;
 }
+
+.section-title span {
+width: 100px;
+}
+
+.section-title h1 {
+font-size: 25px;
+}
+
+.card-list {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px;
+justify-items: center;
+}
+
+.cards {
+width: 100%;
+max-width: 250px;
+height: 150px;
+margin-top: 15px;
+}
+
+.cards i {
+font-size: 35px;
+padding-top: 20px;
+}
+
+.cards h5 {
+font-size: 18px;
+}
+
+.dont {
+height: 280px;
+margin-top: 35px;
+}
+
+.miss-out {
+padding: 25px;
+}
+
+.miss-out h1 {
+font-size: 32px;
+}
+}
+@media screen and (max-width: 480px) {
+
+.container {
+width: 100%;
+padding-inline: 10px;
+}
+
+.logo img {
+height: 65px;
+}
+
+.hero {
+height: 250px;
+margin-top: 20px;
+background-position: center;
+}
+
+.shop-now {
+padding: 20px 15px;
+}
+
+.shop-now h1 {
+font-size: 27px;
+}
+
+.shop-now p {
+font-size: 16px;
+}
+
+.shop-more {
+width: 125px;
+height: 38px;
+font-size: 12px;
+}
+
+.freshmart p {
+font-size: 10px;
+padding-top: 15px;
+}
+
+.why {
+height: auto;
+margin-top: 25px;
+padding: 15px 10px 20px;
+}
+
+.section-title {
+gap: 10px;
+margin-top: 10px;
+}
+
+.section-title span {
+width: 45px;
+}
+
+.section-title h1 {
+font-size: 21px;
+}
+
+.card-list {
+display: grid;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 12px;
+}
+
+.cards {
+width: 100%;
+height: 135px;
+margin-top: 10px;
+padding-inline: 5px;
+}
+
+.cards i {
+font-size: 30px;
+padding-top: 20px;
+}
+
+.cards h5 {
+font-size: 15px;
+padding-top: 8px;
+}
+
+.dont {
+height: 250px;
+margin-top: 25px;
+background-position: center;
+}
+
+.miss-out {
+padding: 20px 15px;
+}
+
+.miss-out h1 {
+font-size: 27px;
+}
+
+.miss-out p {
+font-size: 13px;
+}
+
+.sign-up {
+width: 110px;
+height: 38px;
+font-size: 12px;
+}
+}
+
