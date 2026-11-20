@@ -410,3 +410,319 @@ font-size: 24px;
 .bottom-nav a:hover {
 color: #07812d;
 }
+@media (max-width: 768px) {
+
+.navbar {
+padding: 15px 4%;
+}
+
+.logo img {
+height: 55px;
+}
+
+.nav-icons {
+gap: 18px;
+font-size: 20px;
+}
+
+.payment-container {
+padding: 0 15px;
+margin: 30px auto;
+}
+
+.payment-heading {
+gap: 18px;
+}
+
+.heading-icon {
+font-size: 45px;
+}
+
+.payment-heading h1 {
+font-size: 30px;
+}
+
+.payment-heading p {
+font-size: 15px;
+}
+
+.transfer-option {
+gap: 20px;
+padding: 20px;
+}
+
+.bank-icon {
+font-size: 60px;
+}
+
+.transfer-info h2 {
+font-size: 23px;
+}
+
+.transfer-info p {
+font-size: 15px;
+}
+
+.details-content {
+gap: 15px;
+padding: 20px;
+}
+
+.detail-row {
+grid-template-columns: 30px 1fr 1fr;
+gap: 10px;
+}
+
+.detail-row p {
+font-size: 15px;
+}
+
+.detail-row strong {
+font-size: 16px;
+}
+
+.amount-row strong {
+font-size: 22px;
+}
+
+.copy-account {
+padding: 20px;
+}
+
+.copy-account i {
+font-size: 40px;
+}
+
+.upload-content {
+gap: 18px;
+padding: 20px;
+}
+
+.upload-box {
+padding: 20px;
+}
+
+.secure-payment {
+gap: 12px;
+padding: 15px;
+}
+
+.secure-payment i {
+font-size: 40px;
+}
+
+.secure-payment h3 {
+font-size: 17px;
+}
+
+.secure-payment p {
+font-size: 13px;
+}
+
+.confirm-payment button {
+padding: 17px 50px;
+font-size: 20px;
+}
+
+}
+@media (max-width: 480px) {
+
+.navbar {
+padding: 12px 4%;
+}
+
+.logo img {
+height: 45px;
+}
+
+.nav-icons {
+gap: 15px;
+font-size: 18px;
+}
+
+.payment-container {
+padding: 0 10px;
+margin: 25px auto;
+}
+
+.payment-heading {
+gap: 12px;
+margin-bottom: 25px;
+}
+
+.heading-icon {
+font-size: 35px;
+}
+
+.payment-heading h1 {
+font-size: 24px;
+}
+
+.payment-heading p {
+font-size: 13px;
+}
+
+.transfer-option {
+gap: 15px;
+padding: 15px;
+border-radius: 15px;
+}
+
+.radio-circle {
+width: 22px;
+height: 22px;
+border-width: 4px;
+flex-shrink: 0;
+}
+
+.bank-icon {
+font-size: 40px;
+}
+
+.transfer-info h2 {
+font-size: 18px;
+margin-bottom: 6px;
+}
+
+.transfer-info p {
+font-size: 12px;
+line-height: 1.5;
+}
+
+.bank-details,
+.upload-section {
+border-radius: 15px;
+}
+
+.section-heading {
+padding: 15px;
+gap: 12px;
+}
+
+.section-heading i {
+font-size: 22px;
+}
+
+.section-heading h2 {
+font-size: 18px;
+}
+
+.details-content {
+flex-direction: column;
+align-items: stretch;
+padding: 15px;
+gap: 20px;
+}
+
+.detail-row {
+grid-template-columns: 25px 1fr;
+gap: 8px;
+margin-bottom: 18px;
+}
+
+.detail-row i {
+font-size: 18px;
+}
+
+.detail-row p {
+font-size: 13px;
+}
+
+.detail-row strong {
+grid-column: 2;
+font-size: 15px;
+overflow-wrap: anywhere;
+}
+
+.amount-row strong {
+font-size: 21px;
+}
+
+.copy-account {
+padding: 20px;
+gap: 15px;
+}
+
+.copy-account i {
+font-size: 38px;
+}
+
+.copy-account button {
+width: 100%;
+padding: 13px;
+font-size: 14px;
+}
+
+.upload-content {
+flex-direction: column;
+align-items: stretch;
+padding: 15px;
+gap: 20px;
+}
+
+.upload-box {
+padding: 20px 12px;
+}
+
+.upload-box i {
+font-size: 35px;
+}
+
+.upload-box h3 {
+font-size: 16px;
+}
+
+.upload-box p {
+font-size: 13px;
+}
+
+.upload-box input {
+font-size: 12px;
+width: 100%;
+}
+
+.secure-payment {
+border-left: none;
+border-top: 1px solid #cce8d2;
+padding: 18px 5px 5px;
+gap: 15px;
+flex: auto;
+}
+
+.secure-payment i {
+font-size: 38px;
+}
+
+.secure-payment h3 {
+font-size: 16px;
+}
+
+.secure-payment p {
+font-size: 13px;
+}
+
+.confirm-payment {
+margin: 25px 0;
+}
+
+.confirm-payment button {
+width: 100%;
+padding: 15px;
+font-size: 17px;
+}
+
+.bottom-nav {
+padding: 15px 5px;
+gap: 5px;
+}
+
+.bottom-nav a {
+font-size: 11px;
+gap: 5px;
+}
+
+.bottom-nav i {
+font-size: 19px;
+}
+
+}
