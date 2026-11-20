@@ -113,3 +113,162 @@ cursor: pointer;
     background-color: #34c95c;
     color: #eee;
 }
+@media (max-width: 768px){
+
+.container{
+padding-inline: 15px;
+}
+
+.logo img{
+height: 60px;
+}
+
+.input{
+padding-inline: 10px;
+gap: 15px;
+}
+
+.input-box{
+width: 60%;
+}
+
+.input-box input{
+width: 100%;
+}
+
+#sort{
+font-size: 13px;
+padding: 10px;
+}
+
+.drinks{
+margin-top: 35px;
+margin-left: 10px;
+}
+
+.drinks h1{
+font-size: 27px;
+}
+
+.products{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+
+.image{
+width: 100%;
+height: 300px;
+padding: 15px;
+margin-top: 15px;
+text-align: center;
+}
+
+.image img{
+height: 170px;
+max-width: 100%;
+object-fit: contain;
+}
+
+.inmm img{
+height: 170px;
+padding-left: 0;
+}
+
+.image h4{
+font-size: 20px;
+}
+
+.add-cart{
+width: 90%;
+margin: 10px auto;
+}
+}
+@media (max-width: 480px){
+
+.container{
+padding-inline: 10px;
+}
+
+.logo img{
+height: 50px;
+}
+
+.input{
+padding-inline: 5px;
+gap: 10px;
+align-items: center;
+}
+
+.input-box{
+width: 65%;
+margin-top: 15px;
+}
+
+.input-box input{
+width: 100%;
+padding: 11px 10px 11px 35px;
+font-size: 12px;
+}
+
+.input-box i{
+left: 10px;
+}
+
+#sort{
+width: 35%;
+padding: 10px 5px;
+font-size: 11px;
+margin-top: 15px;
+}
+
+.drinks{
+margin-top: 30px;
+margin-left: 5px;
+}
+
+.drinks h1{
+font-size: 21px;
+}
+
+.products{
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 12px;
+}
+
+.image{
+width: 100%;
+height: 260px;
+padding: 10px 5px;
+margin-top: 15px;
+text-align: center;
+}
+
+.image img{
+height: 135px;
+max-width: 100%;
+object-fit: contain;
+}
+
+.inmm img{
+height: 135px;
+padding-left: 0;
+}
+
+.image h4{
+font-size: 15px;
+margin-top: 5px;
+}
+
+.image p{
+font-size: 13px;
+margin-top: 5px;
+}
+
+.add-cart{
+width: 95%;
+height: 30px;
+font-size: 11px;
+margin: 10px auto;
+}
+}
